@@ -106,7 +106,7 @@ int_profile:
 - { int_type: "switch_port", profile: "CNMC-L101", selector: "1-27", polgro: "auto_access", interface: "27", description: "App Server" }
 - { int_type: "switch_port", profile: "CNMC-L101", selector: "1-28", polgro: "auto_access", interface: "28", description: "DB Server" }
 - { int_type: "switch_port", profile: "CNMC-L101", selector: "1-29", polgro: "auto_access", interface: "29", description: "Web Server" }
-- { int_type: "switch_port", profile: "CNMC-L101", selector: "1-30", polgro: "auto_access", interface: "30", description: "App Server" }3
+- { int_type: "switch_port", profile: "CNMC-L101", selector: "1-30", polgro: "auto_access", interface: "30", description: "App Server" }
 - { int_type: "switch_port", profile: "CNMC-L101", selector: "1-31", polgro: "auto_access", interface: "31", description: "App Server" }
 - { int_type: "switch_port", profile: "CNMC-L101", selector: "1-32", polgro: "auto_access", interface: "32", description: "DB Server" }
 - { int_type: "switch_port", profile: "CNMC-L101", selector: "1-33", polgro: "auto_access", interface: "33", description: "Web Server" }
