@@ -72,6 +72,8 @@ int_profile:
 - { int_type: "switch_port", profile: "CNMC-L102", selector: "1-11", polgro: "auto_access", interface: "11", description: "App Server" }
 - { int_type: "switch_port", profile: "CNMC-L102", selector: "1-12", polgro: "auto_access", interface: "12", description: "DB Server" }
 
+- { int_type: "switch_port", profile: "CNMC-L101", selector: "1-13", polgro: "auto_access", interface: "13", description: "DB Server" }
+- { int_type: "switch_port", profile: "CNMC-L102", selector: "1-13", polgro: "auto_access", interface: "13", description: "DB Server" }
 
 epg_ports:
 
@@ -81,3 +83,6 @@ epg_ports:
 - { epg: "Web", vlan: "10", int_mode: "native", int_type: "switch_port", interface: "1/10", leaf: "102" }
 - { epg: "DB", vlan: "11", int_mode: "native", int_type: "switch_port", interface: "1/11", leaf: "102" }
 - { epg: "App", vlan: "12", int_mode: "native", int_type: "switch_port", interface: "1/12", leaf: "102" }
+
+- { epg: "App", vlan: "12", int_mode: "native", int_type: "switch_port", interface: "1/13", leaf: "101" }
+- { epg: "App", vlan: "12", int_mode: "native", int_type: "switch_port", interface: "1/13", leaf: "102" }
